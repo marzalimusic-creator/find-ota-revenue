@@ -1,0 +1,10 @@
+[project]
+name = "find-ota-revenue"
+version = "1.0.0"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.semantic_release]
+version_variables = ["pyproject.toml:version"]
+version_toml = ["pyproject.toml:project.version"]
+build_command = ""
