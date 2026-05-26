@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+*.exe
+*.so
+*.dll
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Build artifacts
+*.dist/
+*.build/
+*.onefile-build/
+nuitka-crash-report.xml
+
+# IDE
+vscode-here.bat
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
