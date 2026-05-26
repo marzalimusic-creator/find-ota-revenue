@@ -55,7 +55,7 @@ class BracketFrame(tk.LabelFrame):
 class App:
     def __init__(self, root):
         self.root = root
-        root.title("Percentage Calculator")
+        root.title("Find OTA Revenue")
         root.geometry("620x420")
         root.update_idletasks()
         x = (root.winfo_screenwidth() - 620) // 2
